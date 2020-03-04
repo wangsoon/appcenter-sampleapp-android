@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize SDK
         if (!BuildConfig.APPCENTER_APP_SECRET.equals("")) {
             // Use APPCENTER_APP_SECRET environment variable if it exists
-            AppCenter.start(getApplication(), BuildConfig.APPCENTER_APP_SECRET,
+            AppCenter.start(getApplication(), "48249938-0713-465d-b4d1-ce7c27cbd86d",
                     Analytics.class, Crashes.class, Distribute.class);
         } else {
             // Otherwise use the hardcoded string value here
