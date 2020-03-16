@@ -20,7 +20,7 @@
               <goal>copy-dependencies</goal>
             </goals>
             <configuration>
-              <outputDirectory>target/upload/dependency-jars/</outputDirectory>
+              <outputDirectory>target/upload/</outputDirectory>
               <useRepositoryLayout>true</useRepositoryLayout>
               <copyPom>true</copyPom>
               <addParentPoms>true</addParentPoms>
