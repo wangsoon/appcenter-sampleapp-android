@@ -56,14 +56,6 @@
               <goal>testResources</goal>
             </goals>
             <configuration>
-              <outputDirectory>target/upload/test-classes</outputDirectory>
-              <resources>
-                <resource>
-                  <directory>
-                    testoutput
-                  </directory>
-                </resource>
-              </resources>
             </configuration>
           </execution>
         </executions>
