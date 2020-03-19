@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             return views.length;
         }
 
-        @Override
+        @Override //畫面上方
         public CharSequence getPageTitle(@IntRange(from = 0, to = 6) final int position) {
             if (views[position] instanceof WelcomeActivity) {
                 return "Welcome";
